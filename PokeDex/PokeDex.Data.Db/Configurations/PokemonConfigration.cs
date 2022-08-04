@@ -8,23 +8,31 @@ namespace PokeDex.Data.Db.Configurations
     {
         public void Configure(EntityTypeBuilder<Pokemon> builder)
         {
-            builder.HasKey(a => a.PersonId);
+            builder.HasKey(a => a.PokemonId);
             builder
-                .HasOne(a => a.Person)
-                .WithOne(p => p.Address)
-                .HasForeignKey<Person>(p => p.Id);
-            builder
-                .Property(a => a.Street)
+                .Property(a => a.Name)
                 .HasMaxLength(500)
                 .IsRequired(true);
             builder
-                .Property(a => a.City)
+                .Property(a => a.Name)
                 .HasMaxLength(500)
                 .IsRequired(true);
             builder
-                .Property(a => a.Country)
+                .Property(a => a.Type)
                 .HasMaxLength(500)
                 .IsRequired(true);
+            builder
+                .Property(a => a.Description)
+                .HasMaxLength(5000)
+                .IsRequired(true);
+            builder
+                .HasOne(p2 => p2.EvolvesFrom)
+                .WithMany(p1 => p1.EvolvesTo)
+                .HasForeignKey("evolvesFromPokemonId");
+            builder
+                .HasMany(p2 => p2.EvolvesTo)
+                .WithOne(p3 => p3.EvolvesFrom)
+                .HasForeignKey("evolvesToPokemonId");
         }
     }
 }

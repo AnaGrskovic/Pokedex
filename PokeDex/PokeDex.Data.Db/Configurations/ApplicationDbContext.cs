@@ -1,12 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Reflection;
+using Microsoft.EntityFrameworkCore;
+using PokeDex.Contracts.Models;
 
 namespace PokeDex.Data.Db.Configurations
 {
-    internal class ApplicationDbContext
+    public class ApplicationDbContext : DbContext
     {
+
+        public DbSet<Pokemon> Pokemon { get; set; } = default!;
+
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+            base.OnModelCreating(modelBuilder);
+        }
+
     }
 }
+
