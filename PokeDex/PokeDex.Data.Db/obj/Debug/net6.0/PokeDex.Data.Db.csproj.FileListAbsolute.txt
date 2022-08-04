@@ -1,0 +1,5 @@
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Data.Db\obj\Debug\net6.0\PokeDex.Data.Db.csproj.AssemblyReference.cache
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Data.Db\obj\Debug\net6.0\PokeDex.Data.Db.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Data.Db\obj\Debug\net6.0\PokeDex.Data.Db.AssemblyInfoInputs.cache
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Data.Db\obj\Debug\net6.0\PokeDex.Data.Db.AssemblyInfo.cs
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Data.Db\obj\Debug\net6.0\PokeDex.Data.Db.csproj.CoreCompileInputs.cache

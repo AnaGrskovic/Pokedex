@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeDex.API", "PokeDex.API\PokeDex.API.csproj", "{BB1632B6-09FC-4193-A51D-6F9AE3156347}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeDex.API", "PokeDex.API\PokeDex.API.csproj", "{BB1632B6-09FC-4193-A51D-6F9AE3156347}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeDex.Contracts", "PokeDex.Contracts\PokeDex.Contracts.csproj", "{9A4518B6-9D43-4EAC-A3FF-571CA658E76D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeDex.Contracts", "PokeDex.Contracts\PokeDex.Contracts.csproj", "{9A4518B6-9D43-4EAC-A3FF-571CA658E76D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeDex.Data.Db", "PokeDex.Data.Db\PokeDex.Data.Db.csproj", "{76B7E413-8F43-4313-9D3C-A702B0E1AF00}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9A4518B6-9D43-4EAC-A3FF-571CA658E76D} = {9A4518B6-9D43-4EAC-A3FF-571CA658E76D}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +26,10 @@ Global
 		{9A4518B6-9D43-4EAC-A3FF-571CA658E76D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A4518B6-9D43-4EAC-A3FF-571CA658E76D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A4518B6-9D43-4EAC-A3FF-571CA658E76D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B7E413-8F43-4313-9D3C-A702B0E1AF00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B7E413-8F43-4313-9D3C-A702B0E1AF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B7E413-8F43-4313-9D3C-A702B0E1AF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B7E413-8F43-4313-9D3C-A702B0E1AF00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
