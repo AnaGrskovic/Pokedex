@@ -27,7 +27,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Ana\\Desktop\\Ana\\Dodatno\\projects\\PokeDex\\Pokedex\\PokeDex\\PokeDex.Data.Db\\PokeDex.Data.Db.csproj": {
+                "projectPath": "C:\\Users\\Ana\\Desktop\\Ana\\Dodatno\\projects\\PokeDex\\Pokedex\\PokeDex\\PokeDex.Data.Db\\PokeDex.Data.Db.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -59,6 +63,138 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ana\\Desktop\\Ana\\Dodatno\\projects\\PokeDex\\Pokedex\\PokeDex\\PokeDex.Contracts\\PokeDex.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ana\\Desktop\\Ana\\Dodatno\\projects\\PokeDex\\Pokedex\\PokeDex\\PokeDex.Contracts\\PokeDex.Contracts.csproj",
+        "projectName": "PokeDex.Contracts",
+        "projectPath": "C:\\Users\\Ana\\Desktop\\Ana\\Dodatno\\projects\\PokeDex\\Pokedex\\PokeDex\\PokeDex.Contracts\\PokeDex.Contracts.csproj",
+        "packagesPath": "C:\\Users\\Ana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ana\\Desktop\\Ana\\Dodatno\\projects\\PokeDex\\Pokedex\\PokeDex\\PokeDex.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Ana\\Desktop\\Ana\\Dodatno\\projects\\PokeDex\\Pokedex\\PokeDex\\PokeDex.Data.Db\\PokeDex.Data.Db.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Ana\\Desktop\\Ana\\Dodatno\\projects\\PokeDex\\Pokedex\\PokeDex\\PokeDex.Data.Db\\PokeDex.Data.Db.csproj",
+        "projectName": "PokeDex.Data.Db",
+        "projectPath": "C:\\Users\\Ana\\Desktop\\Ana\\Dodatno\\projects\\PokeDex\\Pokedex\\PokeDex\\PokeDex.Data.Db\\PokeDex.Data.Db.csproj",
+        "packagesPath": "C:\\Users\\Ana\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Ana\\Desktop\\Ana\\Dodatno\\projects\\PokeDex\\Pokedex\\PokeDex\\PokeDex.Data.Db\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Ana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Ana\\Desktop\\Ana\\Dodatno\\projects\\PokeDex\\Pokedex\\PokeDex\\PokeDex.Contracts\\PokeDex.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Ana\\Desktop\\Ana\\Dodatno\\projects\\PokeDex\\Pokedex\\PokeDex\\PokeDex.Contracts\\PokeDex.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
