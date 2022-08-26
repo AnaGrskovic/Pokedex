@@ -1,4 +1,5 @@
 using PokeDex.Data.Db.Configurations;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -4,15 +4,11 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace PokeDex.Data.Db.Configurations
 {
-    public class AddressConfiguration : IEntityTypeConfiguration<Pokemon>
+    public class PokemonConfiguration : IEntityTypeConfiguration<Pokemon>
     {
         public void Configure(EntityTypeBuilder<Pokemon> builder)
         {
             builder.HasKey(a => a.PokemonId);
-            builder
-                .Property(a => a.Name)
-                .HasMaxLength(500)
-                .IsRequired(true);
             builder
                 .Property(a => a.Name)
                 .HasMaxLength(500)
