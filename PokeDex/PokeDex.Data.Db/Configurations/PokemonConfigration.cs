@@ -8,14 +8,14 @@ namespace PokeDex.Data.Db.Configurations
     {
         public void Configure(EntityTypeBuilder<Pokemon> builder)
         {
-            builder.HasKey(a => a.PokemonId);
+            builder.HasKey(p => p.PokemonId);
             builder
-                .Property(a => a.Name)
+                .Property(p => p.Name)
                 .HasMaxLength(500)
                 .IsRequired(true);
             builder
-                .Property(a => a.Type)
-                .HasMaxLength(500)
+                .HasOne(p => p.Type)
+                .WithMany(t => t.Poke)
                 .IsRequired(true);
             builder
                 .Property(a => a.Description)
