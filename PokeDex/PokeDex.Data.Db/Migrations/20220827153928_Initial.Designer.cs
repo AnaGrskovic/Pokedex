@@ -11,7 +11,7 @@ using PokeDex.Data.Db.Configurations;
 namespace PokeDex.Data.Db.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20220827151302_Initial")]
+    [Migration("20220827153928_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -47,15 +47,9 @@ namespace PokeDex.Data.Db.Migrations
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
-                    b.Property<int>("evolvesFromPokemonId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("evolvesToPokemonId")
-                        .HasColumnType("int");
-
                     b.HasKey("PokemonId");
 
-                    b.HasIndex("evolvesToPokemonId");
+                    b.HasIndex("EvolvesToPokemonId");
 
                     b.ToTable("Pokemon");
                 });
@@ -189,8 +183,8 @@ namespace PokeDex.Data.Db.Migrations
                 {
                     b.HasOne("PokeDex.Contracts.Models.Pokemon", "EvolvesFrom")
                         .WithMany("EvolvesTo")
-                        .HasForeignKey("evolvesToPokemonId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .HasForeignKey("EvolvesToPokemonId")
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("EvolvesFrom");

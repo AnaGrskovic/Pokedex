@@ -7,7 +7,6 @@ namespace PokeDex.Contracts.Models
         public int TypeId { get; }
         [Required]
         public string Name { get; set; }
-        [Required]
         public List<PokemonType> PokemonTypes { get; set; }
 
         public Type(

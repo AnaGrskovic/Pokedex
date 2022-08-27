@@ -23,11 +23,13 @@ namespace PokeDex.Data.Db.Configurations
             builder
                 .HasOne(p2 => p2.EvolvesFrom)
                 .WithMany(p1 => p1.EvolvesTo)
-                .HasForeignKey("evolvesFromPokemonId");
+                .HasForeignKey("EvolvesFromPokemonId")
+                .OnDelete(DeleteBehavior.Restrict);
             builder
                 .HasMany(p2 => p2.EvolvesTo)
                 .WithOne(p3 => p3.EvolvesFrom)
-                .HasForeignKey("evolvesToPokemonId");
+                .HasForeignKey("EvolvesToPokemonId")
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

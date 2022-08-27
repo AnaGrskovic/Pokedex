@@ -45,15 +45,9 @@ namespace PokeDex.Data.Db.Migrations
                         .HasMaxLength(500)
                         .HasColumnType("nvarchar(500)");
 
-                    b.Property<int>("evolvesFromPokemonId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("evolvesToPokemonId")
-                        .HasColumnType("int");
-
                     b.HasKey("PokemonId");
 
-                    b.HasIndex("evolvesToPokemonId");
+                    b.HasIndex("EvolvesToPokemonId");
 
                     b.ToTable("Pokemon");
                 });
@@ -187,8 +181,8 @@ namespace PokeDex.Data.Db.Migrations
                 {
                     b.HasOne("PokeDex.Contracts.Models.Pokemon", "EvolvesFrom")
                         .WithMany("EvolvesTo")
-                        .HasForeignKey("evolvesToPokemonId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .HasForeignKey("EvolvesToPokemonId")
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("EvolvesFrom");

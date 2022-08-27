@@ -17,19 +17,17 @@ namespace PokeDex.Data.Db.Migrations
                     Name = table.Column<string>(type: "nvarchar(500)", maxLength: 500, nullable: false),
                     Description = table.Column<string>(type: "nvarchar(max)", maxLength: 5000, nullable: false),
                     EvolvesFromPokemonId = table.Column<int>(type: "int", nullable: false),
-                    evolvesToPokemonId = table.Column<int>(type: "int", nullable: false),
-                    EvolvesToPokemonId = table.Column<int>(type: "int", nullable: false),
-                    evolvesFromPokemonId = table.Column<int>(type: "int", nullable: false)
+                    EvolvesToPokemonId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Pokemon", x => x.PokemonId);
                     table.ForeignKey(
-                        name: "FK_Pokemon_Pokemon_evolvesToPokemonId",
-                        column: x => x.evolvesToPokemonId,
+                        name: "FK_Pokemon_Pokemon_EvolvesToPokemonId",
+                        column: x => x.EvolvesToPokemonId,
                         principalTable: "Pokemon",
                         principalColumn: "PokemonId",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                 });
 
             migrationBuilder.CreateTable(
@@ -95,9 +93,9 @@ namespace PokeDex.Data.Db.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Pokemon_evolvesToPokemonId",
+                name: "IX_Pokemon_EvolvesToPokemonId",
                 table: "Pokemon",
-                column: "evolvesToPokemonId");
+                column: "EvolvesToPokemonId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_PokemonType_TypeId",
