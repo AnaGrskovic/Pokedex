@@ -7,8 +7,8 @@ builder.Services.AddControllers();
 
 builder.Services.AddDbContext<ApplicationDbContext>(opt =>
 {
-    opt.UseSqlServer(builder.Configuration.GetConnectionString("LibraryDB"),
-        opt => opt.MigrationsAssembly("Library.AnaGrskovic.Data.Db"));
+    opt.UseSqlServer(builder.Configuration.GetConnectionString("PokeDexDB"),
+        opt => opt.MigrationsAssembly("PokeDex.Data.Db"));
 });
 
 builder.Services.AddEndpointsApiExplorer();

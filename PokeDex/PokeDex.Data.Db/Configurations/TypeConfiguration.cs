@@ -1,5 +1,4 @@
-﻿using PokeDex.Contracts.Models;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using PokeDex.Contracts.Mocks;
 
