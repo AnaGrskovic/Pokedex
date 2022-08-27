@@ -13,12 +13,12 @@ namespace Library.AnaGrskovic.Data.Db.Configurations
 
             builder
                 .HasOne(pt => pt.Pokemon)
-                .WithMany(p => p.Type)
+                .WithMany(p => p.PokemonTypes)
                 .HasForeignKey("PokemonId");
 
             builder
                 .HasOne(pt => pt.Type)
-                .WithMany(t => t.Pokemon)
+                .WithMany(t => t.PokemonTypes)
                 .HasForeignKey("TypeId");
         }
     }
