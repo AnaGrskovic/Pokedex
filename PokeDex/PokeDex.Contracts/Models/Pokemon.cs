@@ -8,7 +8,7 @@ namespace PokeDex.Contracts.Models
         [Required]
         public string Name { get; set; }
         [Required]
-        public List<Type> Type { get; set; }
+        public List<PokemonType> PokemonTypes { get; set; }
         [Required]
         public string Description { get; set; }
         public int EvolvesFromPokemonId { get; set; }
@@ -18,7 +18,7 @@ namespace PokeDex.Contracts.Models
 
         public Pokemon(
             string name,
-            List<Type> types,
+            List<PokemonType> pokemonTypes,
             string description,
             int evolvesFromPokemonId,
             Pokemon evolvesFrom,
@@ -26,7 +26,7 @@ namespace PokeDex.Contracts.Models
             List<Pokemon> evolvesTo)
         {
             Name = name;
-            Type = types;   
+            PokemonTypes = pokemonTypes;   
             Description = description;
             EvolvesFromPokemonId = evolvesFromPokemonId;
             EvolvesFrom = evolvesFrom;

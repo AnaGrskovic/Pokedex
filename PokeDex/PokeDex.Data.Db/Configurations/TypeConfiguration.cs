@@ -14,6 +14,9 @@ namespace PokeDex.Data.Db.Configurations
                 .Property(a => a.Name)
                 .HasMaxLength(500)
                 .IsRequired(true);
+            builder
+                .HasMany(p => p.PokemonTypes)
+                .WithOne(pt => pt.Type);
             builder.HasData(TypeMocks.Types);
         }
     }

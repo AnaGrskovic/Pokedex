@@ -8,13 +8,13 @@ namespace PokeDex.Contracts.Models
         [Required]
         public string Name { get; set; }
         [Required]
-        public List<Pokemon> Pokemon { get; set; }
+        public List<PokemonType> PokemonTypes { get; set; }
 
         public Type(
             string name)
         {
             Name = name;
-            Pokemon = new List<Pokemon>();
+            PokemonTypes = new List<PokemonType>();
         }
         public Type(
             int typeId,
@@ -22,7 +22,7 @@ namespace PokeDex.Contracts.Models
         {
             TypeId = typeId;
             Name = name;
-            Pokemon = new List<Pokemon>();
+            PokemonTypes = new List<PokemonType>();
         }
         public Type()
         {

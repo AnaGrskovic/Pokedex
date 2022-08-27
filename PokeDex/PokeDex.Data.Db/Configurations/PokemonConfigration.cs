@@ -14,9 +14,8 @@ namespace PokeDex.Data.Db.Configurations
                 .HasMaxLength(500)
                 .IsRequired(true);
             builder
-                .HasMany(p => p.Type)
-                .WithMany(t => t.Pokemon)
-                .HasForeignKey("typeId");   // todo: PokemonType for many to many 
+                .HasMany(p => p.PokemonTypes)
+                .WithOne(pt => pt.Pokemon);
             builder
                 .Property(a => a.Description)
                 .HasMaxLength(5000)
