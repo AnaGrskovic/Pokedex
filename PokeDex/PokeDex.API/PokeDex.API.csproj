@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\PokeDex.Contracts\PokeDex.Contracts.csproj" />
     <ProjectReference Include="..\PokeDex.Data.Db\PokeDex.Data.Db.csproj" />
     <ProjectReference Include="..\PokeDex.Services\PokeDex.Services.csproj" />
   </ItemGroup>

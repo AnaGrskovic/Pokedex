@@ -28,6 +28,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\Ana\\Desktop\\Ana\\Dodatno\\projects\\PokeDex\\Pokedex\\PokeDex\\PokeDex.Contracts\\PokeDex.Contracts.csproj": {
+                "projectPath": "C:\\Users\\Ana\\Desktop\\Ana\\Dodatno\\projects\\PokeDex\\Pokedex\\PokeDex\\PokeDex.Contracts\\PokeDex.Contracts.csproj"
+              },
               "C:\\Users\\Ana\\Desktop\\Ana\\Dodatno\\projects\\PokeDex\\Pokedex\\PokeDex\\PokeDex.Data.Db\\PokeDex.Data.Db.csproj": {
                 "projectPath": "C:\\Users\\Ana\\Desktop\\Ana\\Dodatno\\projects\\PokeDex\\Pokedex\\PokeDex\\PokeDex.Data.Db\\PokeDex.Data.Db.csproj"
               },
@@ -123,6 +126,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -259,6 +280,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.22.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.22.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
