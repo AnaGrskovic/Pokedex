@@ -1,0 +1,15 @@
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Services\bin\Debug\net6.0\PokeDex.Services.deps.json
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Services\bin\Debug\net6.0\PokeDex.Services.dll
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Services\bin\Debug\net6.0\PokeDex.Services.pdb
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Services\bin\Debug\net6.0\PokeDex.Contracts.dll
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Services\bin\Debug\net6.0\PokeDex.Contracts.pdb
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Services\obj\Debug\net6.0\PokeDex.Services.csproj.AssemblyReference.cache
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Services\obj\Debug\net6.0\PokeDex.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Services\obj\Debug\net6.0\PokeDex.Services.AssemblyInfoInputs.cache
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Services\obj\Debug\net6.0\PokeDex.Services.AssemblyInfo.cs
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Services\obj\Debug\net6.0\PokeDex.Services.csproj.CoreCompileInputs.cache
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Services\obj\Debug\net6.0\PokeDex.Services.csproj.CopyComplete
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Services\obj\Debug\net6.0\PokeDex.Services.dll
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Services\obj\Debug\net6.0\refint\PokeDex.Services.dll
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Services\obj\Debug\net6.0\PokeDex.Services.pdb
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Services\obj\Debug\net6.0\ref\PokeDex.Services.dll

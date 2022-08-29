@@ -12,6 +12,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PokeDex.Data.Db", "PokeDex.
 		{9A4518B6-9D43-4EAC-A3FF-571CA658E76D} = {9A4518B6-9D43-4EAC-A3FF-571CA658E76D}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokeDex.Services", "PokeDex.Services\PokeDex.Services.csproj", "{74A82FEB-3518-4B0C-AA0B-2590238F22BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 		{76B7E413-8F43-4313-9D3C-A702B0E1AF00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76B7E413-8F43-4313-9D3C-A702B0E1AF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76B7E413-8F43-4313-9D3C-A702B0E1AF00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74A82FEB-3518-4B0C-AA0B-2590238F22BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74A82FEB-3518-4B0C-AA0B-2590238F22BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74A82FEB-3518-4B0C-AA0B-2590238F22BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74A82FEB-3518-4B0C-AA0B-2590238F22BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

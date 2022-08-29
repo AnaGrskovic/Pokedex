@@ -90,3 +90,7 @@ C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.API\bi
 C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.API\bin\Debug\net6.0\PokeDex.Contracts.pdb
 C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.API\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.API\bin\Debug\net6.0\PokeDex.Services.dll
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.API\bin\Debug\net6.0\PokeDex.Services.pdb
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
