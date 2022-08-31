@@ -9,6 +9,8 @@ using PokeDex.Services;
 using PokeDex.Contracts.Repositories;
 using PokeDex.Data.Db.Repositories;
 using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Identity;
+using PokeDex.Contracts.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -44,6 +46,13 @@ builder.Services
 
 builder.Services.Configure<JWTSettings>(builder.Configuration.GetSection("JWT"));
 
+builder.Services.AddIdentity<User, IdentityRole<int>>(options =>
+{
+    options.Password.RequiredLength = 10;
+    options.Password.RequireNonAlphanumeric = true;
+    options.Password.RequireDigit = true;
+}).AddEntityFrameworkStores<ApplicationDbContext>();
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(opt =>
 {
@@ -73,6 +82,7 @@ builder.Services.AddSwaggerGen(opt =>
     });
 });
 
+builder.Services.AddScoped<ITokenGenerator, TokenGenerator>();
 builder.Services.AddScoped<IRegistrationService, RegistrationService>();
 builder.Services.AddScoped<ILoginService, LoginService>();
 builder.Services.AddScoped<IPokemonService, PokemonService>();
