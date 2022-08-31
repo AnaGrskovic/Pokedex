@@ -22,6 +22,13 @@ builder.Services.AddDbContext<ApplicationDbContext>(opt =>
         opt => opt.MigrationsAssembly("PokeDex.Data.Db"));
 });
 
+builder.Services.AddIdentity<User, IdentityRole<int>>(options =>
+{
+    options.Password.RequiredLength = 10;
+    options.Password.RequireNonAlphanumeric = true;
+    options.Password.RequireDigit = true;
+}).AddEntityFrameworkStores<ApplicationDbContext>();
+
 builder.Services
     .AddAuthentication(options =>
     {
@@ -45,13 +52,6 @@ builder.Services
     });
 
 builder.Services.Configure<JWTSettings>(builder.Configuration.GetSection("JWT"));
-
-builder.Services.AddIdentity<User, IdentityRole<int>>(options =>
-{
-    options.Password.RequiredLength = 10;
-    options.Password.RequireNonAlphanumeric = true;
-    options.Password.RequireDigit = true;
-}).AddEntityFrameworkStores<ApplicationDbContext>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(opt =>
