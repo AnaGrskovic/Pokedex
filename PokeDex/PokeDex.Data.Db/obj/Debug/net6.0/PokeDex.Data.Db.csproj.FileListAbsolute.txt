@@ -1,0 +1,17 @@
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Data.Db\obj\Debug\net6.0\PokeDex.Data.Db.csproj.AssemblyReference.cache
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Data.Db\obj\Debug\net6.0\PokeDex.Data.Db.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Data.Db\obj\Debug\net6.0\PokeDex.Data.Db.AssemblyInfoInputs.cache
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Data.Db\obj\Debug\net6.0\PokeDex.Data.Db.AssemblyInfo.cs
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Data.Db\obj\Debug\net6.0\PokeDex.Data.Db.csproj.CoreCompileInputs.cache
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Data.Db\bin\Debug\net6.0\PokeDex.Data.Db.deps.json
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Data.Db\bin\Debug\net6.0\PokeDex.Data.Db.runtimeconfig.json
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Data.Db\bin\Debug\net6.0\PokeDex.Data.Db.dll
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Data.Db\bin\Debug\net6.0\PokeDex.Data.Db.pdb
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Data.Db\bin\Debug\net6.0\PokeDex.Contracts.dll
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Data.Db\bin\Debug\net6.0\PokeDex.Contracts.pdb
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Data.Db\obj\Debug\net6.0\PokeDex.Data.Db.csproj.CopyComplete
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Data.Db\obj\Debug\net6.0\PokeDex.Data.Db.dll
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Data.Db\obj\Debug\net6.0\refint\PokeDex.Data.Db.dll
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Data.Db\obj\Debug\net6.0\PokeDex.Data.Db.pdb
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Data.Db\obj\Debug\net6.0\PokeDex.Data.Db.genruntimeconfig.cache
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Data.Db\obj\Debug\net6.0\ref\PokeDex.Data.Db.dll

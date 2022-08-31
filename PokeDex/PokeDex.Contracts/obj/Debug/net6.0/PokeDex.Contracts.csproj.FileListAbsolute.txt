@@ -1,0 +1,12 @@
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Contracts\bin\Debug\net6.0\PokeDex.Contracts.deps.json
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Contracts\bin\Debug\net6.0\PokeDex.Contracts.dll
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Contracts\bin\Debug\net6.0\PokeDex.Contracts.pdb
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Contracts\obj\Debug\net6.0\PokeDex.Contracts.csproj.AssemblyReference.cache
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Contracts\obj\Debug\net6.0\PokeDex.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Contracts\obj\Debug\net6.0\PokeDex.Contracts.AssemblyInfoInputs.cache
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Contracts\obj\Debug\net6.0\PokeDex.Contracts.AssemblyInfo.cs
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Contracts\obj\Debug\net6.0\PokeDex.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Contracts\obj\Debug\net6.0\PokeDex.Contracts.dll
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Contracts\obj\Debug\net6.0\refint\PokeDex.Contracts.dll
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Contracts\obj\Debug\net6.0\PokeDex.Contracts.pdb
+C:\Users\Ana\Desktop\Ana\Dodatno\projects\PokeDex\Pokedex\PokeDex\PokeDex.Contracts\obj\Debug\net6.0\ref\PokeDex.Contracts.dll
