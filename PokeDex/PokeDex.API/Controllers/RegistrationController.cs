@@ -15,7 +15,7 @@ namespace PokeDex.API.Controllers
         }
 
         [HttpPost]
-        [Route("register")]
+        [Route("api/pokemon/register")]
         public async Task<IActionResult> Register([FromBody] RegistrationRequest registrationRequest)
         {
             await _registrationService.Register(registrationRequest);

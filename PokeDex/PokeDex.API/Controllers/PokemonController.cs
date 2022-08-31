@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Authorization;
 using PokeDex.Contracts.Services;
+using PokeDex.Contracts.Models;
 
 namespace PokeDex.API.Controllers
 {
@@ -20,6 +21,12 @@ namespace PokeDex.API.Controllers
         public async Task<IActionResult> GetAll()
         {
             return Ok(await _pokemonService.GetAllAsync());
+        }
+
+        [HttpPost(Name = "CreatePokemon")]
+        public async Task<IActionResult> Create([FromBody] Pokemon pokemon)
+        {
+            return Ok(await _pokemonService.Create(pokemon));
         }
     }
 }

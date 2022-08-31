@@ -6,5 +6,6 @@ namespace PokeDex.Contracts.Services
     {
         Task<List<Pokemon>> GetAllAsync();
         Task<Pokemon?> GetAsync(int pokemonId);
+        Task<Pokemon> Create(Pokemon pokemon);
     }
 }

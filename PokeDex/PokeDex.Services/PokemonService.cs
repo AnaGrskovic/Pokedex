@@ -29,5 +29,12 @@ namespace PokeDex.Services
 
             return pokemon;
         }
+
+        public async Task<Pokemon> Create(Pokemon pokemon)
+        {
+            _uow.Pokemon.Add(pokemon);
+            await _uow.SaveChangesAsync();
+            return pokemon;
+        }
     }
 }
